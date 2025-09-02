@@ -13,8 +13,10 @@ jobs:
               with:
                   node-version: 20
             - run: npm ci
+              working-directory: forsyte-studios-spa
             - run: npm run build
+              working-directory: forsyte-studios-spa
             - uses: actions/upload-pages-artifact@v3
               with:
-                  path: dist
+                  path: forsyte-studios-spa/dist
             - uses: actions/deploy-pages@v4
