@@ -5,11 +5,11 @@
 <template>
 	<div class="h-dvh w-dvw bg-[url('/img/wallpaper.jpg')] bg-cover bg-center text-white flex justify-center lg:items-center">
 		<div class="space-y-10 bg-gray-900/50 p-3 lg:p-6 rounded-xl">
-			<div class="flex gap-3 items-center">
-				<div class="h-20 w-20 bg-white/90 rounded-xl">
-					<div class="w-full h-full bg-[url('/img/logo.png')] bg-cover bg-center"></div>
+			<div class="flex justify-center">
+				<div class="flex gap-3 items-center">
+					<div class="h-24 w-24 bg-[url('/img/logo-white.png')] bg-cover bg-center"></div>
+					<div class="text-4xl lg:text-6xl font-semibold">Forsyte Studios</div>
 				</div>
-				<div class="text-4xl lg:text-6xl font-semibold">Forsyte Studios</div>
 			</div>
 			<ProductCarousel />
 			<div class="space-y-2">
