@@ -4,12 +4,12 @@
 
 <template>
 	<div class="fixed inset-0 h-full w-full bg-[url('/img/wallpaper.jpg')] bg-cover bg-center bg-fixed z-0"></div>
-	<div class="relative z-10 min-h-screen w-full flex justify-center items-start overflow-y-auto text-white bg-gray-900/60 lg:bg-gray-900/0">
+	<div class="relative z-10 min-h-screen w-full flex justify-center items-start overflow-y-auto text-white bg-gray-900/60 lg:bg-gray-900/0 backdrop-blur-lg">
 		<div class="space-y-6 lg:space-y-10 lg:bg-gray-900/60 p-3 sm:p-4 md:p-6 lg:rounded-xl lg:mt-10 w-full max-w-xl sm:max-w-2xl md:max-w-3xl lg:max-w-4xl">
 			<div class="flex justify-center">
 				<div class="flex flex-col gap-3 lg:gap-0 items-center">
-					<div class="h-20 w-20 md:h-40 md:w-40 -mb-6 -mt-3 lg:mt-0 bg-[url('/img/logo-white.png')] bg-cover bg-center"></div>
-					<div class="text-3xl lg:text-6xl bruno-ace-sc-regular">Forsyte Studios</div>
+					<div class="h-20 w-20 md:h-24 md:w-24 -mb-2 -mt-3 lg:mt-0 bg-[url('/img/logo-white.png')] bg-cover bg-center"></div>
+					<div class="text-4xl lg:text-5xl sansation-regular">FORSYTE STUDIOS</div>
 				</div>
 			</div>
 			<ProductCarousel />
@@ -41,8 +41,8 @@
 		overflow-y: auto;
 	}
 
-	.bruno-ace-sc-regular {
-		font-family: "Bruno Ace SC", sans-serif;
+	.sansation-regular {
+		font-family: "Sansation", sans-serif;
 		font-weight: 400;
 		font-style: normal;
 	}
