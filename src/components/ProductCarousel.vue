@@ -1,7 +1,7 @@
 <script setup lang="ts">
 	import { ref, onMounted, onUnmounted } from "vue"
 
-	const images = ["/img/products/green-squario.png", "/img/products/run-io.png"]
+	const images = ["/img/products/green-squario.png", "/img/products/run-io_with_label.png"]
 	const current = ref(0)
 	let interval: number | undefined
 
